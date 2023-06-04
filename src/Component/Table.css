@@ -1,0 +1,85 @@
+/* Common Styles */
+.tableBody {
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+.inputFieldCss {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.selectedRow {
+  background-color: #f2f2f2;
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+  .tableHeader {
+    background-color: #f2f2f2;
+  }
+
+  table {
+    width: 1000px;
+    margin: 20px auto;
+  }
+}
+
+/* Styles for screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tableHeader {
+    background-color: #f2f2f2;
+  }
+
+  table {
+    width: 800px;
+    margin: 20px auto;
+  }
+}
+
+/* Styles for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .tableHeader {
+    background-color: #f2f2f2;
+  }
+
+  table {
+    width: 700px;
+    margin: 20px auto;
+  }
+}
+
+/* Styles for screens up to 767px */
+@media (max-width: 767px) {
+  .tableHeader {
+    background-color: #f2f2f2;
+  }
+
+  table {
+    width: 100%;
+  }
+  .inputFieldCss {
+    font-size: 12px;
+  }
+}
+
+/* Styles for screens up to 479px */
+@media (max-width: 479px) {
+  .tableHeader {
+    background-color: #f2f2f2;
+  }
+
+  table,
+  .inputFieldCss {
+    font-size: 10px;
+  }
+}
